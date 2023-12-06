@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "testsynaps0925"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"testsynaps0925-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:testsynaps0925.sql.azuresynapse.azure.cn,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"testsynaps0925-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://testgen2.dfs.core.chinacloudapi.cn"
+		}
+	}
+}
