@@ -14,6 +14,9 @@
 		"AzureSqlDatabase2_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase3_connectionString": {
+			"value": ""
+		},
 		"testsynaps0925-WorkspaceDefaultSqlServer_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:testsynaps0925.sql.azuresynapse.azure.cn,1433;Initial Catalog=@{linkedService().DBName}"
 		},
